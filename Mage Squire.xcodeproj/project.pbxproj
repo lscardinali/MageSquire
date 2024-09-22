@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A02FDED62C9FC78C003B56FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02FDEB92C9FC78B003B56FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02FDEC02C9FC78B003B56FE;
+			remoteInfo = "Mage Squire";
+		};
+		A02FDEE02C9FC78C003B56FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02FDEB92C9FC78B003B56FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02FDEC02C9FC78B003B56FE;
+			remoteInfo = "Mage Squire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A02FDEC12C9FC78B003B56FE /* Mage Squire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mage Squire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02FDED52C9FC78C003B56FE /* Mage SquireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mage SquireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02FDEDF2C9FC78C003B56FE /* Mage SquireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mage SquireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A02FDEE72C9FC78C003B56FE /* Exceptions for "Mage Squire" folder in "Mage Squire" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A02FDEC02C9FC78B003B56FE /* Mage Squire */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A02FDEC32C9FC78B003B56FE /* Mage Squire */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A02FDEE72C9FC78C003B56FE /* Exceptions for "Mage Squire" folder in "Mage Squire" target */,
+			);
+			path = "Mage Squire";
+			sourceTree = "<group>";
+		};
+		A02FDED82C9FC78C003B56FE /* Mage SquireTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mage SquireTests";
+			sourceTree = "<group>";
+		};
+		A02FDEE22C9FC78C003B56FE /* Mage SquireUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mage SquireUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02FDEBE2C9FC78B003B56FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02FDED22C9FC78C003B56FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02FDEDC2C9FC78C003B56FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02FDEB82C9FC78B003B56FE = {
+			isa = PBXGroup;
+			children = (
+				A02FDEC32C9FC78B003B56FE /* Mage Squire */,
+				A02FDED82C9FC78C003B56FE /* Mage SquireTests */,
+				A02FDEE22C9FC78C003B56FE /* Mage SquireUITests */,
+				A02FDEC22C9FC78B003B56FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A02FDEC22C9FC78B003B56FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02FDEC12C9FC78B003B56FE /* Mage Squire.app */,
+				A02FDED52C9FC78C003B56FE /* Mage SquireTests.xctest */,
+				A02FDEDF2C9FC78C003B56FE /* Mage SquireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02FDEC02C9FC78B003B56FE /* Mage Squire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02FDEE82C9FC78C003B56FE /* Build configuration list for PBXNativeTarget "Mage Squire" */;
+			buildPhases = (
+				A02FDEBD2C9FC78B003B56FE /* Sources */,
+				A02FDEBE2C9FC78B003B56FE /* Frameworks */,
+				A02FDEBF2C9FC78B003B56FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A02FDEC32C9FC78B003B56FE /* Mage Squire */,
+			);
+			name = "Mage Squire";
+			packageProductDependencies = (
+			);
+			productName = "Mage Squire";
+			productReference = A02FDEC12C9FC78B003B56FE /* Mage Squire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02FDED42C9FC78C003B56FE /* Mage SquireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02FDEED2C9FC78C003B56FE /* Build configuration list for PBXNativeTarget "Mage SquireTests" */;
+			buildPhases = (
+				A02FDED12C9FC78C003B56FE /* Sources */,
+				A02FDED22C9FC78C003B56FE /* Frameworks */,
+				A02FDED32C9FC78C003B56FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02FDED72C9FC78C003B56FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A02FDED82C9FC78C003B56FE /* Mage SquireTests */,
+			);
+			name = "Mage SquireTests";
+			packageProductDependencies = (
+			);
+			productName = "Mage SquireTests";
+			productReference = A02FDED52C9FC78C003B56FE /* Mage SquireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A02FDEDE2C9FC78C003B56FE /* Mage SquireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02FDEF02C9FC78C003B56FE /* Build configuration list for PBXNativeTarget "Mage SquireUITests" */;
+			buildPhases = (
+				A02FDEDB2C9FC78C003B56FE /* Sources */,
+				A02FDEDC2C9FC78C003B56FE /* Frameworks */,
+				A02FDEDD2C9FC78C003B56FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02FDEE12C9FC78C003B56FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A02FDEE22C9FC78C003B56FE /* Mage SquireUITests */,
+			);
+			name = "Mage SquireUITests";
+			packageProductDependencies = (
+			);
+			productName = "Mage SquireUITests";
+			productReference = A02FDEDF2C9FC78C003B56FE /* Mage SquireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02FDEB92C9FC78B003B56FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A02FDEC02C9FC78B003B56FE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A02FDED42C9FC78C003B56FE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A02FDEC02C9FC78B003B56FE;
+					};
+					A02FDEDE2C9FC78C003B56FE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A02FDEC02C9FC78B003B56FE;
+					};
+				};
+			};
+			buildConfigurationList = A02FDEBC2C9FC78B003B56FE /* Build configuration list for PBXProject "Mage Squire" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02FDEB82C9FC78B003B56FE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A02FDEC22C9FC78B003B56FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02FDEC02C9FC78B003B56FE /* Mage Squire */,
+				A02FDED42C9FC78C003B56FE /* Mage SquireTests */,
+				A02FDEDE2C9FC78C003B56FE /* Mage SquireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02FDEBF2C9FC78B003B56FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02FDED32C9FC78C003B56FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02FDEDD2C9FC78C003B56FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02FDEBD2C9FC78B003B56FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02FDED12C9FC78C003B56FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02FDEDB2C9FC78C003B56FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02FDED72C9FC78C003B56FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02FDEC02C9FC78B003B56FE /* Mage Squire */;
+			targetProxy = A02FDED62C9FC78C003B56FE /* PBXContainerItemProxy */;
+		};
+		A02FDEE12C9FC78C003B56FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02FDEC02C9FC78B003B56FE /* Mage Squire */;
+			targetProxy = A02FDEE02C9FC78C003B56FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A02FDEE92C9FC78C003B56FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mage Squire/Mage_Squire.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mage Squire/Preview Content\"";
+				DEVELOPMENT_TEAM = SY87M4P7NJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mage Squire/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lscardinali.Mage-Squire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A02FDEEA2C9FC78C003B56FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mage Squire/Mage_Squire.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mage Squire/Preview Content\"";
+				DEVELOPMENT_TEAM = SY87M4P7NJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mage Squire/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lscardinali.Mage-Squire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A02FDEEB2C9FC78C003B56FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A02FDEEC2C9FC78C003B56FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02FDEEE2C9FC78C003B56FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY87M4P7NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lscardinali.Mage-SquireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mage Squire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mage Squire";
+			};
+			name = Debug;
+		};
+		A02FDEEF2C9FC78C003B56FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY87M4P7NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lscardinali.Mage-SquireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mage Squire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mage Squire";
+			};
+			name = Release;
+		};
+		A02FDEF12C9FC78C003B56FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY87M4P7NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lscardinali.Mage-SquireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mage Squire";
+			};
+			name = Debug;
+		};
+		A02FDEF22C9FC78C003B56FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY87M4P7NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lscardinali.Mage-SquireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mage Squire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02FDEBC2C9FC78B003B56FE /* Build configuration list for PBXProject "Mage Squire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02FDEEB2C9FC78C003B56FE /* Debug */,
+				A02FDEEC2C9FC78C003B56FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02FDEE82C9FC78C003B56FE /* Build configuration list for PBXNativeTarget "Mage Squire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02FDEE92C9FC78C003B56FE /* Debug */,
+				A02FDEEA2C9FC78C003B56FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02FDEED2C9FC78C003B56FE /* Build configuration list for PBXNativeTarget "Mage SquireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02FDEEE2C9FC78C003B56FE /* Debug */,
+				A02FDEEF2C9FC78C003B56FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02FDEF02C9FC78C003B56FE /* Build configuration list for PBXNativeTarget "Mage SquireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02FDEF12C9FC78C003B56FE /* Debug */,
+				A02FDEF22C9FC78C003B56FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02FDEB92C9FC78B003B56FE /* Project object */;
+}
