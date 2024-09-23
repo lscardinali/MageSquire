@@ -12,7 +12,7 @@ import SwiftData
 struct Mage_SquireApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Match.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct Mage_SquireApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabs()
         }
         .modelContainer(sharedModelContainer)
     }
